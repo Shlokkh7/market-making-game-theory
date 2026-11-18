@@ -1,0 +1,12 @@
+* text=auto
+*.md text eol=lf
+*.json text eol=lf
+*.csv text eol=lf
+*.py text eol=lf
+
+# Keep the original scientific scripts byte-for-byte across checkouts.
+/mm_dynamic.py -text
+/mm_bayes.py -text
+/simulate_game.py -text
+
+*.png binary
