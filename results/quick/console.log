@@ -1,0 +1,19 @@
+equilibrium solved in 0.9s; simulating with 4000 / 2000 paths
+
+=== Experiment A: reference maker (rivals enter through the belief) ===
+q0=-3: simulated -50.607 +/- 0.030   theory -50.594   difference -0.013 (-0.4 s.e.)   [max rate*dt = 0.08]
+   deviation c -> payoff change vs c=0:  -0.20: -2.219(0.020)   -0.10: -0.464(0.015)   -0.05: -0.106(0.011)   +0.00: +0.000(0.000)   +0.05: -0.088(0.012)   +0.10: -0.329(0.017)   +0.20: -1.080(0.024)
+q0=+0: simulated 9.526 +/- 0.029   theory 9.535   difference -0.010 (-0.3 s.e.)   [max rate*dt = 0.08]
+   deviation c -> payoff change vs c=0:  -0.20: -2.218(0.020)   -0.10: -0.469(0.015)   -0.05: -0.109(0.011)   +0.00: +0.000(0.000)   +0.05: -0.098(0.012)   +0.10: -0.349(0.017)   +0.20: -1.078(0.024)
+q0=+3: simulated 69.401 +/- 0.030   theory 69.406   difference -0.005 (-0.2 s.e.)   [max rate*dt = 0.08]
+   deviation c -> payoff change vs c=0:  -0.20: -2.220(0.020)   -0.10: -0.467(0.015)   -0.05: -0.108(0.011)   +0.00: +0.000(0.000)   +0.05: -0.112(0.012)   +0.10: -0.341(0.017)   +0.20: -1.095(0.023)
+
+=== Experiment B: explicit game with 4 makers ===
+q0=-3: simulated -50.592 +/- 0.042   theory -50.594   gap +0.002 (+0.0% of theta)
+q0=+0: simulated 9.556 +/- 0.042   theory 9.535   gap +0.021 (+0.2% of theta)
+q0=+3: simulated 69.429 +/- 0.041   theory 69.406   gap +0.023 (+0.2% of theta)
+   total-variation distance, assumed vs realised at t=0.0: 0.025
+   total-variation distance, assumed vs realised at t=0.5: 0.108
+   total-variation distance, assumed vs realised at t=0.9: 0.048
+
+saved fig_sim_deviation.png and fig_sim_belief.png   (total 6s)

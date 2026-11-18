@@ -1,0 +1,8 @@
+{
+  "Command": "python simulate_game.py --quick",
+  "SourceCommit": "e654e6a16150152ce09a65b3da704bdb4e2c2226",
+  "WorkingDirectory": "C:\\Users\\Hp\\Documents\\Codex\\2026-11-13\\referenced-chatgpt-conversation-this-is-an\\outputs\\market-making-game-theory\\results\\quick",
+  "ExitCode": 0,
+  "ElapsedSeconds": 17.4171818,
+  "PythonExecutable": "C:\\Users\\Hp\\Documents\\Codex\\2026-11-13\\referenced-chatgpt-conversation-this-is-an\\work\\validation-venv\\Scripts\\python.exe"
+}
