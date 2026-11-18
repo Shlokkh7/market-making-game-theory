@@ -1,0 +1,72 @@
+{
+  "source_pdf_sha256": "386823d7872cfe5b4e6e9efa08e52655f365524e6b97e1be7a547370835fbf59",
+  "source_tex_sha256": "b5f01872bb75135947cbf10efe3ef53cef1601c01db5e2f1522f209939fcd984",
+  "page_count": 6,
+  "reference_figures": {
+    "fig_sim_belief.png": {
+      "sha256": "9fea1fa14aed820c78a7680cc312fce0bd39435252095a1ca36dc543da578347",
+      "bytes": 105897,
+      "width": 1125,
+      "height": 660,
+      "mode": "RGBA",
+      "rgb_pixels_sha256": "ad57c19ca10fd0778498662e02b04b2f3f5d1a9ea51c7caade78b23cd1654c2e",
+      "metadata": {
+        "Software": "Matplotlib version3.10.8, https://matplotlib.org/",
+        "dpi": "(150.01239999999999, 150.01239999999999)"
+      }
+    },
+    "fig_sim_deviation.png": {
+      "sha256": "f5497292e74f4e46728afc3f43f5acd5b7ab80acb3be00e8880d937fe56fd6d9",
+      "bytes": 74022,
+      "width": 1050,
+      "height": 660,
+      "mode": "RGBA",
+      "rgb_pixels_sha256": "d286663e925391ee638a2a52658bf38cdc39c13dd533e86a60be1f1292a65f6d",
+      "metadata": {
+        "Software": "Matplotlib version3.10.8, https://matplotlib.org/",
+        "dpi": "(150.01239999999999, 150.01239999999999)"
+      }
+    }
+  },
+  "pdf_images": [
+    {
+      "page": 5,
+      "pdf_image_name": "Im1.png",
+      "width": 1050,
+      "height": 660,
+      "rgb_pixels_sha256": "d286663e925391ee638a2a52658bf38cdc39c13dd533e86a60be1f1292a65f6d",
+      "exact_rgb_matches": [
+        "fig_sim_deviation.png"
+      ]
+    },
+    {
+      "page": 6,
+      "pdf_image_name": "Im2.png",
+      "width": 1125,
+      "height": 660,
+      "rgb_pixels_sha256": "ad57c19ca10fd0778498662e02b04b2f3f5d1a9ea51c7caade78b23cd1654c2e",
+      "exact_rgb_matches": [
+        "fig_sim_belief.png"
+      ]
+    }
+  ],
+  "authors_from_tex": [
+    {
+      "name": "Prashant Vijaykumar Sharma",
+      "email": "u24ec050@eced.svnit.ac.in"
+    },
+    {
+      "name": "Shlok Khandelwal",
+      "email": "u24ec044@eced.svnit.ac.in"
+    },
+    {
+      "name": "Khyati Srivastava",
+      "email": "u24ec040@eced.svnit.ac.in"
+    }
+  ],
+  "affiliation_from_tex": "Department of Electronics and Communications Engineering, Sardar Vallabhbhai National Institute of Technology, Surat, India",
+  "schema_version": 1,
+  "review_date": "2026-11-18",
+  "comparison_method": "Extract PDF raster images with pypdf, decode both images to RGB, compare exact dimensions and pixel bytes. Supplied PNG alpha channels were fully opaque.",
+  "scope": "Establishes submission figure selection and displayed image equality; does not establish the historical generating command, run configuration, or Python/NumPy environment."
+}
