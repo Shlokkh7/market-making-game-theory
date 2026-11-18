@@ -1,0 +1,84 @@
+{
+  "status": "completed",
+  "started_utc": "2026-11-18T05:52:53.445033+00:00",
+  "invocation": [
+    "C:\\Users\\Hp\\Documents\\Codex\\2026-11-13\\referenced-chatgpt-conversation-this-is-an\\work\\validation-venv\\Scripts\\python.exe",
+    "tools/run_experiments.py",
+    "--output-dir",
+    "results/full"
+  ],
+  "equivalent_source_command": "python simulate_game.py",
+  "working_directory": "C:\\Users\\Hp\\Documents\\Codex\\2026-11-13\\referenced-chatgpt-conversation-this-is-an\\outputs\\market-making-game-theory\\results\\full",
+  "source_commit_at_run": "e654e6a16150152ce09a65b3da704bdb4e2c2226",
+  "source_sha256": {
+    "mm_dynamic.py": "5d3cbefe9870207d7b4fe1b18fa1a225967b23aadb6f328ac96bd52e64a33087",
+    "mm_bayes.py": "4ac175f71ced092dc6db6f4720b7592ed504cfed562247232fd36f555ad4e293",
+    "simulate_game.py": "182665d3d6818c834995c7b47e2307508734c318e059c4f8ca7c55d8400969da"
+  },
+  "helper_sha256": "875096d5f1fbd00f8a21b8a9dad108e679242045ff867d9dd531b5023a3366c3",
+  "python": "3.13.7",
+  "python_executable": "C:\\Users\\Hp\\Documents\\Codex\\2026-11-13\\referenced-chatgpt-conversation-this-is-an\\work\\validation-venv\\Scripts\\python.exe",
+  "operating_system": "Windows-11-10.0.26300-SP0",
+  "machine": "AMD64",
+  "processor": "Intel64 Family 6 Model 183 Stepping 1, GenuineIntel",
+  "numpy": "2.5.5",
+  "matplotlib": "3.10.8",
+  "installed_distributions": {
+    "contourpy": "1.4.0",
+    "cycler": "0.12.1",
+    "fonttools": "4.68.0",
+    "kiwisolver": "1.5.1",
+    "matplotlib": "3.10.8",
+    "numpy": "2.5.4",
+    "packaging": "26.3",
+    "pillow": "13.0.0",
+    "pyparsing": "3.3.3",
+    "python-dateutil": "4.0.0",
+    "tzdata": "2026.6",
+    "pip": "25.2",
+    "scipy": "1.18.1"
+  },
+  "mode": "full",
+  "paths_A": 40000,
+  "paths_B": 20000,
+  "parameters": {
+    "Lam": 60.0,
+    "a": 2.0,
+    "k": 2.0,
+    "gamma": 1.0,
+    "sigma": 0.01,
+    "T": 1.0,
+    "nsteps": 100,
+    "Q": 5,
+    "liq": 0.1
+  },
+  "simulation_substeps": 10,
+  "simulation_dt": 0.001,
+  "rivals": 3,
+  "prior_scale": 2.0,
+  "initial_price": 20.0,
+  "initial_inventories": [
+    -3,
+    0,
+    3
+  ],
+  "shifts": [
+    -0.2,
+    -0.1,
+    -0.05,
+    0.0,
+    0.05,
+    0.1,
+    0.2
+  ],
+  "seed_A": 7,
+  "seed_B": 8,
+  "instrumentation": "Unchanged source main with passive returned-array hooks and line-state observations; no parameter or RNG changes.",
+  "elapsed_seconds": 34.89613120000013,
+  "ended_utc": "2026-11-18T05:53:28.778178+00:00",
+  "exit_code": 0,
+  "generated_figure_sha256": {
+    "fig_sim_deviation.png": "9edf2f475ae5f4a23fc4e3fc7b2fc97098c1728a77afb4b7bbd5f46ca4748e62",
+    "fig_sim_belief.png": "356dd89a2b88d091114bb0001c3c2c301b60db4b4258f28de3efcc7978b5b93d"
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "reference_directory": "figures",
+  "generated_directory": "results\\full",
+  "note": "Exact reproduction in this tested environment does not establish the original historical Python/NumPy environment.",
+  "figures": [
+    {
+      "filename": "fig_sim_deviation.png",
+      "reference_sha256": "f5497292e74f4e46728afc3f43f5acd5b7ab80acb3be00e8880d937fe56fd6d9",
+      "generated_sha256": "9edf2f475ae5f4a23fc4e3fc7b2fc97098c1728a77afb4b7bbd5f46ca4748e62",
+      "identical_bytes": false,
+      "identical_decoded_RGBA_pixels": true,
+      "reference_shape": [
+        660,
+        1050,
+        4
+      ],
+      "generated_shape": [
+        660,
+        1050,
+        4
+      ],
+      "different_pixel_count": 0
+    },
+    {
+      "filename": "fig_sim_belief.png",
+      "reference_sha256": "9fea1fa14aed820c78a7680cc312fce0bd39435252095a1ca36dc543da578347",
+      "generated_sha256": "356dd89a2b88d091114bb0001c3c2c301b60db4b4258f28de3efcc7978b5b93d",
+      "identical_bytes": false,
+      "identical_decoded_RGBA_pixels": true,
+      "reference_shape": [
+        660,
+        1125,
+        4
+      ],
+      "generated_shape": [
+        660,
+        1125,
+        4
+      ],
+      "different_pixel_count": 0
+    }
+  ]
+}
