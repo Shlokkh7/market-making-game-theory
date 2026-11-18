@@ -1,0 +1,15 @@
+{
+  "preserved_source_and_figure_bytes": {
+    "mm_dynamic.py": true,
+    "mm_bayes.py": true,
+    "simulate_game.py": true,
+    "figures/fig_sim_deviation.png": true,
+    "figures/fig_sim_belief.png": true
+  },
+  "checked_local_markdown_links": 50,
+  "missing_local_markdown_links": [],
+  "default_numerical_checks_passed": true,
+  "full_figures_pixel_exact": true,
+  "publication_status": "public publication approved; repository URL verified; complete remote tree and submission tag require final verification",
+  "status": "passed"
+}

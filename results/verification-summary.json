@@ -1,0 +1,117 @@
+{
+  "original_source_sha256": {
+    "mm_dynamic.py": "5d3cbefe9870207d7b4fe1b18fa1a225967b23aadb6f328ac96bd52e64a33087",
+    "mm_bayes.py": "4ac175f71ced092dc6db6f4720b7592ed504cfed562247232fd36f555ad4e293",
+    "simulate_game.py": "182665d3d6818c834995c7b47e2307508734c318e059c4f8ca7c55d8400969da"
+  },
+  "current_source_sha256": {
+    "mm_dynamic.py": "5d3cbefe9870207d7b4fe1b18fa1a225967b23aadb6f328ac96bd52e64a33087",
+    "mm_bayes.py": "4ac175f71ced092dc6db6f4720b7592ed504cfed562247232fd36f555ad4e293",
+    "simulate_game.py": "182665d3d6818c834995c7b47e2307508734c318e059c4f8ca7c55d8400969da"
+  },
+  "original_sources_preserved_byte_for_byte": true,
+  "untouched_source_quick_command": "passed",
+  "instrumented_full_command": "completed",
+  "clean_environment_instrumented_quick": "completed",
+  "full_elapsed_seconds": 34.89613120000013,
+  "instrumented_quick_elapsed_seconds": 6.080985099999907,
+  "unit_tests": {
+    "command": "python -m unittest discover -s tests -v",
+    "test_file": "tests/test_model.py",
+    "log": "results/unit-tests.log",
+    "passed": true,
+    "count": 5
+  },
+  "numerical_diagnostics": {
+    "status": "passed",
+    "checks": {
+      "finite_output": true,
+      "probabilities_normalized": true,
+      "terminal_condition": true,
+      "all_roots_bracketed": true,
+      "first_order_residual_below_1e_minus_6": true,
+      "fixed_point_residual_below_1e_minus_8": true,
+      "no_iteration_exhaustion": true,
+      "ask_quotes_nonincreasing_in_inventory": true,
+      "bid_quotes_nondecreasing_in_inventory": true,
+      "symmetry": true,
+      "all_A_rate_times_dt_below_one": true,
+      "inventory_boundary_rates": true
+    },
+    "maximum_first_order_residual": 6.926713143166896e-09,
+    "maximum_fixed_point_residual": 4.604316927725449e-11,
+    "max_iterations": 7,
+    "exhausted_calls": 0
+  },
+  "full_report_figures_identical_decoded_pixels": true,
+  "full_report_figures_identical_bytes": false,
+  "clean_quick_matches_untouched_source_bytes": true,
+  "full_q0_zero_baseline_A": {
+    "q0": 0,
+    "paths": 40000,
+    "seed": 7,
+    "theory": 9.535126740363182,
+    "mean": 9.548654249564093,
+    "standard_error": 0.009316322497496768,
+    "difference": 0.013527509200910615,
+    "difference_in_standard_errors": 1.4520224267188435,
+    "max_rate_times_dt": 0.07740021212469715
+  },
+  "full_q0_zero_baseline_B": {
+    "q0": 0,
+    "paths": 20000,
+    "seed": 8,
+    "theory": 9.535126740363182,
+    "mean": 9.569540813820524,
+    "standard_error": 0.013362646474508407,
+    "difference": 0.03441407345734149,
+    "difference_in_standard_errors": 2.5753935437109985,
+    "gap_percent_of_theta": 0.3609188885939307
+  },
+  "full_q0_zero_belief_distances": [
+    {
+      "time": 0.0,
+      "total_variation_distance": 0.004161700716805935,
+      "retained_ask_samples": 20000,
+      "excluded_no_ask_samples": 0
+    },
+    {
+      "time": 0.5,
+      "total_variation_distance": 0.09791160093299836,
+      "retained_ask_samples": 19999,
+      "excluded_no_ask_samples": 1
+    },
+    {
+      "time": 0.9,
+      "total_variation_distance": 0.055443365059519356,
+      "retained_ask_samples": 20000,
+      "excluded_no_ask_samples": 0
+    }
+  ],
+  "maximum_A_table_rate_times_dt": 0.12680337740415784,
+  "maximum_B_observed_rate_times_dt": 0.08828489369833216,
+  "observed_inventory_bounds_satisfied": true,
+  "all_tested_nonzero_deviation_means_negative": true,
+  "helper_metadata_change_after_full_run": {
+    "helper_sha256_at_full_run": "875096d5f1fbd00f8a21b8a9dad108e679242045ff867d9dd531b5023a3366c3",
+    "current_helper_sha256": "a567103df64029e01594d0e8c91d96f352cc632f49ceaf6866fd4c883ad94430",
+    "changes": [
+      "Replaced ambiguous flat installed-distribution inventory with version/location lists.",
+      "Added active module paths and rate-observation explanatory notes."
+    ],
+    "scientific_model_or_random_draws_changed": false,
+    "validation": "Clean-environment instrumented quick output matched untouched-source quick PNG bytes exactly."
+  },
+  "not_attempted": [
+    "Standalone Bayesian Monte Carlo experiment.",
+    "New solver-grid or simulation-substep refinement study.",
+    "Empirical market calibration.",
+    "Independent proof of equilibrium over arbitrary deviations."
+  ],
+  "warnings": [
+    "Initial full-run flat distribution inventory contained a system NumPy metadata entry2.5.4 although imported NumPy was2.5.5; see results/environment-reconciliation.json.",
+    "Full run not repeated after disabling inherited system packages because active modules did not change and clean quick output matched exactly.",
+    "Probability bounds below1 do not establish negligible time-discretization bias.",
+    "Original historical Python/NumPy versions remain unidentified."
+  ]
+}

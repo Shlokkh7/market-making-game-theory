@@ -1,0 +1,10 @@
+test_extreme_inventory_distribution_matches_direct_enumeration (test_model.ModelChecks.test_extreme_inventory_distribution_matches_direct_enumeration) ... ok
+test_intensity_derivative_against_finite_difference (test_model.ModelChecks.test_intensity_derivative_against_finite_difference) ... ok
+test_reference_source_bytes_preserved (test_model.ModelChecks.test_reference_source_bytes_preserved) ... ok
+test_single_rival_extremes_agree (test_model.ModelChecks.test_single_rival_extremes_agree) ... ok
+test_uninformative_observation_preserves_prior (test_model.ModelChecks.test_uninformative_observation_preserves_prior) ... ok
+
+----------------------------------------------------------------------
+Ran 5 tests in 0.271s
+
+OK

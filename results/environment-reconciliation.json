@@ -1,0 +1,67 @@
+{
+  "purpose": "Reconcile initial inherited-site metadata with the modules actually used, preserving the original full-run manifest unchanged.",
+  "initial_venv_included_system_site_packages": true,
+  "initial_full_run_active_module_versions": {
+    "numpy": "2.5.5",
+    "matplotlib": "3.10.8"
+  },
+  "initial_flat_distribution_inventory_numpy": "2.5.4",
+  "initial_inventory_caveat": "The old flat name-to-version dictionary collapsed duplicate system/local distributions and reported system NumPy 2.5.4; the imported NumPy module was local 2.5.5. Future helper manifests list versions and locations without collapsing duplicates.",
+  "current_venv_includes_system_site_packages": false,
+  "python": "3.13.7",
+  "operating_system": "Windows-11-10.0.26300-SP0",
+  "active_modules": {
+    "numpy": {
+      "version": "2.5.5",
+      "file": "C:\\Users\\Hp\\Documents\\Codex\\2026-11-13\\referenced-chatgpt-conversation-this-is-an\\work\\validation-venv\\Lib\\site-packages\\numpy\\__init__.py"
+    },
+    "matplotlib": {
+      "version": "3.10.8",
+      "file": "C:\\Users\\Hp\\Documents\\Codex\\2026-11-13\\referenced-chatgpt-conversation-this-is-an\\work\\validation-venv\\Lib\\site-packages\\matplotlib\\__init__.py"
+    }
+  },
+  "current_distribution_inventory": {
+    "matplotlib": [
+      {
+        "version": "3.10.8",
+        "location": "C:\\Users\\Hp\\Documents\\Codex\\2026-11-13\\referenced-chatgpt-conversation-this-is-an\\work\\validation-venv\\Lib\\site-packages"
+      }
+    ],
+    "numpy": [
+      {
+        "version": "2.5.5",
+        "location": "C:\\Users\\Hp\\Documents\\Codex\\2026-11-13\\referenced-chatgpt-conversation-this-is-an\\work\\validation-venv\\Lib\\site-packages"
+      }
+    ]
+  },
+  "post_isolation_checks": [
+    "Imports retain identical active module versions and local origins.",
+    "Five unit tests passed.",
+    "The default-grid numerical diagnostics passed.",
+    "Clean-environment instrumented quick run passed; both PNGs matched raw quick-run bytes and pixels."
+  ],
+  "quick_comparison": [
+    {
+      "filename": "fig_sim_deviation.png",
+      "raw_quick_sha256": "523e1ca4a911a3c9226fb900377f822fd64b6c8331eae903a567a415d2ae8bda",
+      "instrumented_clean_quick_sha256": "523e1ca4a911a3c9226fb900377f822fd64b6c8331eae903a567a415d2ae8bda",
+      "identical_bytes": true,
+      "identical_decoded_RGBA_pixels": true
+    },
+    {
+      "filename": "fig_sim_belief.png",
+      "raw_quick_sha256": "afe423733b67dca876553e59afb3fbc7908370443dd51ae02f0e45f5a31b4057",
+      "instrumented_clean_quick_sha256": "afe423733b67dca876553e59afb3fbc7908370443dd51ae02f0e45f5a31b4057",
+      "identical_bytes": true,
+      "identical_decoded_RGBA_pixels": true
+    }
+  ],
+  "full_run_repeated_after_environment_isolation": false,
+  "reason_full_not_repeated": "The active package files/versions did not change; clean-environment quick reproduction exactly matched raw quick output, and the full run had already reproduced the selected report figure pixels.",
+  "observation_notes": [
+    "A rate maxima use the entire state/time table, not just visited inventory states.",
+    "B rate maxima observe actual visited state rates after availability masks.",
+    "A zero-shift trace aggregates baseline and repeated zero-shift simulation calls."
+  ],
+  "historical_environment_status": "Not established; current reproduction does not identify historical Python or NumPy versions."
+}
