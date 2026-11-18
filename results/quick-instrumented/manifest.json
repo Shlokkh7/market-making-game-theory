@@ -1,0 +1,148 @@
+{
+  "status": "completed",
+  "started_utc": "2026-11-18T05:57:35.593533+00:00",
+  "invocation": [
+    "C:\\Users\\Hp\\Documents\\Codex\\2026-11-13\\referenced-chatgpt-conversation-this-is-an\\work\\validation-venv\\Scripts\\python.exe",
+    "tools/run_experiments.py",
+    "--quick",
+    "--output-dir",
+    "results/quick-instrumented"
+  ],
+  "equivalent_source_command": "python simulate_game.py --quick",
+  "working_directory": "C:\\Users\\Hp\\Documents\\Codex\\2026-11-13\\referenced-chatgpt-conversation-this-is-an\\outputs\\market-making-game-theory\\results\\quick-instrumented",
+  "source_commit_at_run": "e654e6a16150152ce09a65b3da704bdb4e2c2226",
+  "source_sha256": {
+    "mm_dynamic.py": "5d3cbefe9870207d7b4fe1b18fa1a225967b23aadb6f328ac96bd52e64a33087",
+    "mm_bayes.py": "4ac175f71ced092dc6db6f4720b7592ed504cfed562247232fd36f555ad4e293",
+    "simulate_game.py": "182665d3d6818c834995c7b47e2307508734c318e059c4f8ca7c55d8400969da"
+  },
+  "helper_sha256": "a567103df64029e01594d0e8c91d96f352cc632f49ceaf6866fd4c883ad94430",
+  "python": "3.13.7",
+  "python_executable": "C:\\Users\\Hp\\Documents\\Codex\\2026-11-13\\referenced-chatgpt-conversation-this-is-an\\work\\validation-venv\\Scripts\\python.exe",
+  "operating_system": "Windows-11-10.0.26300-SP0",
+  "machine": "AMD64",
+  "processor": "Intel64 Family 6 Model 183 Stepping 1, GenuineIntel",
+  "numpy": "2.5.5",
+  "matplotlib": "3.10.8",
+  "active_module_locations": {
+    "numpy": "C:\\Users\\Hp\\Documents\\Codex\\2026-11-13\\referenced-chatgpt-conversation-this-is-an\\work\\validation-venv\\Lib\\site-packages\\numpy\\__init__.py",
+    "matplotlib": "C:\\Users\\Hp\\Documents\\Codex\\2026-11-13\\referenced-chatgpt-conversation-this-is-an\\work\\validation-venv\\Lib\\site-packages\\matplotlib\\__init__.py"
+  },
+  "installed_distributions": {
+    "contourpy": [
+      {
+        "version": "1.4.0",
+        "location": "C:\\Users\\Hp\\Documents\\Codex\\2026-11-13\\referenced-chatgpt-conversation-this-is-an\\work\\validation-venv\\Lib\\site-packages"
+      }
+    ],
+    "cycler": [
+      {
+        "version": "0.12.1",
+        "location": "C:\\Users\\Hp\\Documents\\Codex\\2026-11-13\\referenced-chatgpt-conversation-this-is-an\\work\\validation-venv\\Lib\\site-packages"
+      }
+    ],
+    "fonttools": [
+      {
+        "version": "4.68.0",
+        "location": "C:\\Users\\Hp\\Documents\\Codex\\2026-11-13\\referenced-chatgpt-conversation-this-is-an\\work\\validation-venv\\Lib\\site-packages"
+      }
+    ],
+    "kiwisolver": [
+      {
+        "version": "1.5.1",
+        "location": "C:\\Users\\Hp\\Documents\\Codex\\2026-11-13\\referenced-chatgpt-conversation-this-is-an\\work\\validation-venv\\Lib\\site-packages"
+      }
+    ],
+    "matplotlib": [
+      {
+        "version": "3.10.8",
+        "location": "C:\\Users\\Hp\\Documents\\Codex\\2026-11-13\\referenced-chatgpt-conversation-this-is-an\\work\\validation-venv\\Lib\\site-packages"
+      }
+    ],
+    "numpy": [
+      {
+        "version": "2.5.5",
+        "location": "C:\\Users\\Hp\\Documents\\Codex\\2026-11-13\\referenced-chatgpt-conversation-this-is-an\\work\\validation-venv\\Lib\\site-packages"
+      }
+    ],
+    "packaging": [
+      {
+        "version": "26.3",
+        "location": "C:\\Users\\Hp\\Documents\\Codex\\2026-11-13\\referenced-chatgpt-conversation-this-is-an\\work\\validation-venv\\Lib\\site-packages"
+      }
+    ],
+    "pillow": [
+      {
+        "version": "13.0.0",
+        "location": "C:\\Users\\Hp\\Documents\\Codex\\2026-11-13\\referenced-chatgpt-conversation-this-is-an\\work\\validation-venv\\Lib\\site-packages"
+      }
+    ],
+    "pyparsing": [
+      {
+        "version": "3.3.3",
+        "location": "C:\\Users\\Hp\\Documents\\Codex\\2026-11-13\\referenced-chatgpt-conversation-this-is-an\\work\\validation-venv\\Lib\\site-packages"
+      }
+    ],
+    "python-dateutil": [
+      {
+        "version": "4.0.0",
+        "location": "C:\\Users\\Hp\\Documents\\Codex\\2026-11-13\\referenced-chatgpt-conversation-this-is-an\\work\\validation-venv\\Lib\\site-packages"
+      }
+    ],
+    "tzdata": [
+      {
+        "version": "2026.6",
+        "location": "C:\\Users\\Hp\\Documents\\Codex\\2026-11-13\\referenced-chatgpt-conversation-this-is-an\\work\\validation-venv\\Lib\\site-packages"
+      }
+    ]
+  },
+  "mode": "quick",
+  "paths_A": 4000,
+  "paths_B": 2000,
+  "parameters": {
+    "Lam": 60.0,
+    "a": 2.0,
+    "k": 2.0,
+    "gamma": 1.0,
+    "sigma": 0.01,
+    "T": 1.0,
+    "nsteps": 100,
+    "Q": 5,
+    "liq": 0.1
+  },
+  "simulation_substeps": 10,
+  "simulation_dt": 0.001,
+  "rivals": 3,
+  "prior_scale": 2.0,
+  "initial_price": 20.0,
+  "initial_inventories": [
+    -3,
+    0,
+    3
+  ],
+  "shifts": [
+    -0.2,
+    -0.1,
+    -0.05,
+    0.0,
+    0.05,
+    0.1,
+    0.2
+  ],
+  "seed_A": 7,
+  "seed_B": 8,
+  "instrumentation": "Unchanged source main with passive returned-array hooks and line-state observations; no parameter or RNG changes.",
+  "observation_notes": [
+    "Experiment A rate maxima are bounds over the entire precomputed inventory/time table, not only visited states.",
+    "Experiment B rate maxima are over actually visited maker states after quote-availability masks.",
+    "Each A shift-zero trace aggregates two source calls: initial baseline and repeated zero-shift comparison.",
+    "Other A shifts and B initial inventories each contain one simulation call."
+  ],
+  "elapsed_seconds": 6.080985099999907,
+  "ended_utc": "2026-11-18T05:57:41.844747+00:00",
+  "exit_code": 0,
+  "generated_figure_sha256": {
+    "fig_sim_deviation.png": "523e1ca4a911a3c9226fb900377f822fd64b6c8331eae903a567a415d2ae8bda",
+    "fig_sim_belief.png": "afe423733b67dca876553e59afb3fbc7908370443dd51ae02f0e45f5a31b4057"
+  }
+}
